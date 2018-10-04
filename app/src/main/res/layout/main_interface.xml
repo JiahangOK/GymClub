@@ -27,11 +27,12 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
-
         </LinearLayout>
 
-        <!--  选项-->
 
+
+
+        <!--  选项-->
         <LinearLayout
             android:id="@+id/frameMenu"
             android:layout_width="match_parent"
@@ -67,6 +68,10 @@
         </LinearLayout>
     </LinearLayout>
 
+
+
+
+
     <LinearLayout
         android:id="@+id/left"
         android:layout_width="240dp"
@@ -74,6 +79,7 @@
         android:orientation="vertical"
         android:background="#fff"
         android:layout_gravity="start"
+
         >
         <ImageView
             android:layout_width="200px"
@@ -82,7 +88,12 @@
             android:background="#797373"
             android:layout_marginBottom="20px"
             android:layout_marginTop="60px"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+
+            />
+        <!--android:menu="@menu/nav_menu"-->
+
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -98,12 +109,17 @@
 
             android:dividerHeight="0dp">
 
-
-
         </ListView>
 
     </LinearLayout>
 
+    <!--<android.support.design.widget.NavigationView-->
+        <!--android:id="@+id/nav_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_gravity="center"-->
+        <!--app:menu="@menu/nav_menu"-->
+        <!--app:headerLayout="@layout/nav_header"/>-->
 
 
 

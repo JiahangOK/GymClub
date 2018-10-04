@@ -5,5 +5,6 @@
         android:id="@+id/drawable_menu"
         android:icon="@drawable/fight"
         android:title="Menu"
-        app:showAsAction="always"/>
+        app:showAsAction="always" />
+
 </menu>
