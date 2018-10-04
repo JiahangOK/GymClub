@@ -19,10 +19,11 @@
         <activity
             android:name=".MainInterfaceActivity"
             android:label="Sport"></activity>
-        <activity
-            android:name=".InfoActivity"
-            android:label="Info"></activity>
-        <activity android:name=".AnnounceActivity"></activity>
+
+        <activity android:name=".AnnounceActivity"
+        android:label="Announcement"></activity>
+        <activity android:name=".RegisterActivity"
+            android:label="Register"></activity>
     </application>
 
 </manifest>

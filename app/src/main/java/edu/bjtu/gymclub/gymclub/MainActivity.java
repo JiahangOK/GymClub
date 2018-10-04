@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button signInBtn = (Button) findViewById(R.id.signInBtn);
+        Button signUpBtn = (Button) findViewById(R.id.signUpBtn);
         Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -28,6 +29,17 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent();
                 intent.setClass(MainActivity.this,MainInterfaceActivity.class);
                 startActivity(intent);
+            }
+        });
+
+        signUpBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent;
+                intent = new Intent();
+                intent.setClass(MainActivity.this,RegisterActivity.class);
+                startActivity(intent);
+
             }
         });
     }
