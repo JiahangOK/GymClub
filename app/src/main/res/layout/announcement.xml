@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+
+    <TextView
+        android:id="@+id/text_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Announcement"
+        android:gravity="center"
+        android:textColor="		#8B0000"
+        android:textSize="46sp"
+        android:background="#F08080"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"
+        android:padding="5dp"
+
+    />
+
+    <TextView
+        android:id="@+id/text_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" only for you "
+        android:gravity="right"
+        android:textColor="	#8B0000"
+        android:textSize="26sp"
+        android:fontFamily="sans-serif-condensed"
+        android:background="#F08080"
+        android:layout_marginLeft="240dp"/>
+
+    <TextView
+    android:id="@+id/text_view3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="yoga training at 10:00am"
+    android:gravity="center"
+    android:textColor="		#B22222"
+    android:textSize="36sp"
+    android:background="#FFE4E1"
+    android:paddingBottom="6dp"
+    android:layout_margin="12dp"
+    />
+
+    <TextView
+        android:id="@+id/text_view4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="afternoon tea at 15:00am"
+        android:gravity="center"
+        android:textColor="	#B22222"
+        android:textSize="36sp"
+        android:background="#FFE4E1"
+        android:paddingBottom="6dp"
+        android:layout_margin="12dp"
+        />
+    <TextView
+        android:id="@+id/text_view5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="running trainer at 10:00pm"
+        android:gravity="center"
+        android:textColor="	#B22222"
+        android:textSize="36sp"
+        android:background="#FFE4E1"
+        android:paddingBottom="6dp"
+        android:layout_margin="12dp"
+        />
+
+    <Button
+        android:id="@+id/flush"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:text="Flush!"
+        android:background="#F08080"
+        android:textColor="#FFE4E1"
+        android:textSize="36dp"
+        android:layout_gravity="center"
+        android:paddingBottom="5dp"/>
+
+
+</LinearLayout>
