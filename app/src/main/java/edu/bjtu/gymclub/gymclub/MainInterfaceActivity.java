@@ -145,6 +145,7 @@ public class MainInterfaceActivity extends AppCompatActivity {
                 transaction.commit();
             }
         });
+        rb_sport.setChecked(true);
 
         transaction = manager.beginTransaction();
 

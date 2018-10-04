@@ -41,26 +41,28 @@
             >
             <RadioGroup
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:orientation="horizontal">
                 <RadioButton
                     android:id="@+id/rb_sport"
                     android:layout_width="0px"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Sport"
                     android:gravity="center"
                     android:drawableTop="@drawable/sport"
+                    android:background="@drawable/radio_group_selector"
 
 
                     android:button="@null"/>
                 <RadioButton
                     android:id="@+id/rb_info"
                     android:layout_width="0px"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Info"
                     android:gravity="center"
+                    android:background="@drawable/radio_group_selector"
                     android:drawableTop="@drawable/info"
                     android:button="@null"/>
             </RadioGroup>
