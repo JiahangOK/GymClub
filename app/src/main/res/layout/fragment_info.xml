@@ -11,7 +11,7 @@
             android:layout_height="wrap_content"
             android:text="Important Information"
             android:textColor="#000000"
-            android:textSize="50px"
+            android:textSize="75px"
             android:textAlignment="center"
             />
         <TextView

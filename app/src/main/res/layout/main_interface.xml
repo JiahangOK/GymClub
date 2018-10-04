@@ -27,50 +27,50 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
-
         </LinearLayout>
 
-        <!--  选项-->
 
+
+
+        <!--  选项-->
         <LinearLayout
             android:id="@+id/frameMenu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="bottom"
             >
-
             <RadioGroup
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal">
-
                 <RadioButton
-                    android:paddingTop="5dp"
                     android:id="@+id/rb_sport"
                     android:layout_width="0px"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="@drawable/radio_group_selector"
-                    android:button="@null"
-                    android:drawableTop="@drawable/sport"
+                    android:text="Sport"
                     android:gravity="center"
-                    android:text="Sport" />
+                    android:drawableTop="@drawable/sport"
 
+
+                    android:button="@null"/>
                 <RadioButton
-                    android:paddingTop="5dp"
                     android:id="@+id/rb_info"
                     android:layout_width="0px"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="@drawable/radio_group_selector"
-                    android:button="@null"
-                    android:drawableTop="@drawable/info"
+                    android:text="Info"
                     android:gravity="center"
-                    android:text="Info" />
+                    android:drawableTop="@drawable/info"
+                    android:button="@null"/>
             </RadioGroup>
 
         </LinearLayout>
     </LinearLayout>
+
+
+
+
 
     <LinearLayout
         android:id="@+id/left"
@@ -79,13 +79,7 @@
         android:orientation="vertical"
         android:background="#fff"
         android:layout_gravity="start"
-        >
-    <LinearLayout
-        android:id="@+id/lefttop"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:background="#cc9ea3a4"
+
         >
         <ImageView
             android:layout_width="200px"
@@ -94,15 +88,18 @@
             android:background="#797373"
             android:layout_marginBottom="20px"
             android:layout_marginTop="60px"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+
+            />
+        <!--android:menu="@menu/nav_menu"-->
+
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Admin"
             android:textSize="50px"
             android:textAlignment="center"/>
-    </LinearLayout>
-
         <ListView
             android:id="@+id/listview"
             android:layout_width="match_parent"
@@ -112,11 +109,17 @@
 
             android:dividerHeight="0dp">
 
-
         </ListView>
 
     </LinearLayout>
 
+    <!--<android.support.design.widget.NavigationView-->
+        <!--android:id="@+id/nav_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_gravity="center"-->
+        <!--app:menu="@menu/nav_menu"-->
+        <!--app:headerLayout="@layout/nav_header"/>-->
 
 
 

@@ -16,13 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="edu.bjtu.gymclub.gymclub.MainInterfaceActivity"
-            android:label="Sport">
-
-        </activity>
-
-
-
+        <activity
+            android:name=".MainInterfaceActivity"
+            android:label="Sport"></activity>
+        <activity
+            android:name=".InfoActivity"
+            android:label="Info"></activity>
+        <activity android:name=".AnnounceActivity"></activity>
     </application>
 
 </manifest>
