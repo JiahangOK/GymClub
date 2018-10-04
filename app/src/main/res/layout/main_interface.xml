@@ -38,30 +38,35 @@
             android:layout_height="wrap_content"
             android:gravity="bottom"
             >
+
             <RadioGroup
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:orientation="horizontal">
+
                 <RadioButton
+                    android:paddingTop="5dp"
                     android:id="@+id/rb_sport"
                     android:layout_width="0px"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Sport"
-                    android:gravity="center"
+                    android:background="@drawable/radio_group_selector"
+                    android:button="@null"
                     android:drawableTop="@drawable/sport"
+                    android:gravity="center"
+                    android:text="Sport" />
 
-
-                    android:button="@null"/>
                 <RadioButton
+                    android:paddingTop="5dp"
                     android:id="@+id/rb_info"
                     android:layout_width="0px"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Info"
-                    android:gravity="center"
+                    android:background="@drawable/radio_group_selector"
+                    android:button="@null"
                     android:drawableTop="@drawable/info"
-                    android:button="@null"/>
+                    android:gravity="center"
+                    android:text="Info" />
             </RadioGroup>
 
         </LinearLayout>
@@ -74,6 +79,13 @@
         android:orientation="vertical"
         android:background="#fff"
         android:layout_gravity="start"
+        >
+    <LinearLayout
+        android:id="@+id/lefttop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#cc9ea3a4"
         >
         <ImageView
             android:layout_width="200px"
@@ -89,6 +101,8 @@
             android:text="Admin"
             android:textSize="50px"
             android:textAlignment="center"/>
+    </LinearLayout>
+
         <ListView
             android:id="@+id/listview"
             android:layout_width="match_parent"
@@ -97,7 +111,6 @@
             android:choiceMode="singleChoice"
 
             android:dividerHeight="0dp">
-
 
 
         </ListView>

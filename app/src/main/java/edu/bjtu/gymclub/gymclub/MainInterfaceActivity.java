@@ -69,7 +69,9 @@ public class MainInterfaceActivity extends AppCompatActivity {
         });
 
         transaction = manager.beginTransaction();
+
         transaction.add(R.id.content_layout,new sportFragment());
+        rb_sport.setChecked(true);
         transaction.commit();
 
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);

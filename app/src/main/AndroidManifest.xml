@@ -20,10 +20,9 @@
             android:label="Sport">
 
         </activity>
-        <activity android:name="edu.bjtu.gymclub.gymclub.InfoActivity"
-            android:label="Info">
 
-        </activity>
+
+
     </application>
 
 </manifest>
