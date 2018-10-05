@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container"
@@ -7,20 +8,30 @@
     android:layout_height="match_parent"
     tools:context=".CoachActivity">
 
-    <TextView
-        android:id="@+id/text"
-        android:text="Coaches"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:textSize="30dp"
-        android:gravity="center"
-        android:layout_below="@+id/coaches"/>
-    <ListView
-        android:id="@+id/coaches"
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
-    </ListView>
+    <!--<TextView-->
+        <!--android:id="@+id/coachhead"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Coaches"-->
+        <!--android:textSize="40dp"-->
+        <!--android:layout_below="@id/toolbar2"-->
+        <!--android:gravity="center"-->
+        <!--&lt;!&ndash;android:textStyle="bold"&ndash;&gt;-->
+        <!--android:textColor="@color/colorPrimary"/>-->
 
-</android.support.constraint.ConstraintLayout>
+    <ListView
+        android:id="@+id/coachlist"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/toolbar2" />
+
+
+</RelativeLayout>
