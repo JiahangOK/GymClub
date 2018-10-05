@@ -34,9 +34,14 @@ public class sportFragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         tas.add("index");
-        tas.add("run");
-        tas.add("walk");
-        tas.add("ride");
+        tas.add("Running");
+        tas.add("Walking");
+        tas.add("Riding");
+        tas.add("Boxing");
+        tas.add("Football");
+        tas.add("Lon Tennis");
+        tas.add("Tennis");
+        tas.add("Volleyball");
 
 
         //设置适配器  注意：getChildFragmentManager
@@ -53,7 +58,7 @@ public class sportFragment extends Fragment {
     private void initView(View view) {
         my_table = (TabLayout) view.findViewById(R.id.tabLayout);
         my_table.setTabGravity(TabLayout.GRAVITY_FILL);
-        my_table.setTabMode(TabLayout.MODE_FIXED);
+        my_table.setTabMode(TabLayout.MODE_SCROLLABLE);
         viewPager = (ViewPager) view.findViewById(R.id.viewPager);
     }
 
@@ -83,6 +88,22 @@ public class sportFragment extends Fragment {
                 case 3:
                     f=new rideFragment();
                     break;
+                case 4:
+                    f=new boxingFragment();
+                    break;
+                case 5:
+                    f=new footballFragment();
+                    break;
+                case 6:
+                    f=new lonTennisFragment();
+                    break;
+                case 7:
+                    f=new tennisFragment();
+                    break;
+                case 8:
+                    f=new volleyballFragment();
+                    break;
+
             }
             return f;
         }

@@ -62,6 +62,7 @@ public class MainInterfaceActivity extends AppCompatActivity {
             public void onClick(View v) {
                 transaction = manager.beginTransaction();
                 transaction.replace(R.id.content_layout,new sportFragment());
+
                 transaction.commit();
             }
         });
@@ -71,6 +72,7 @@ public class MainInterfaceActivity extends AppCompatActivity {
             public void onClick(View v) {
                 transaction = manager.beginTransaction();
                 transaction.replace(R.id.content_layout,new infoFragment());
+
                 transaction.commit();
             }
         });
