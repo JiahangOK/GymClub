@@ -18,12 +18,17 @@
         </activity>
         <activity
             android:name=".MainInterfaceActivity"
-            android:label="Sport"></activity>
-
-        <activity android:name=".AnnounceActivity"
-        android:label="Announcement"></activity>
-        <activity android:name=".RegisterActivity"
-            android:label="Register"></activity>
+            android:label="Sport" />
+        <activity
+            android:name=".AnnounceActivity"
+            android:label="Announcement" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Register" />
+        <activity android:name=".ScheduleActivity" />
+        <activity
+            android:name=".CoachActivity"
+            android:label="@string/title_activity_coach"></activity>
     </application>
 
 </manifest>

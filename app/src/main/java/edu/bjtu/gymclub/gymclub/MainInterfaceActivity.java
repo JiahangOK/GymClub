@@ -224,6 +224,14 @@ public class MainInterfaceActivity extends AppCompatActivity {
                     Intent intent = new Intent(MainInterfaceActivity.this,AnnounceActivity.class);
                     startActivity(intent);
                 }
+                if(menuLists.get(position).equals("Schedule")){
+                    Intent intent = new Intent(MainInterfaceActivity.this,ScheduleActivity.class);
+                    startActivity(intent);
+                }
+                if(menuLists.get(position).equals("Coaches")){
+                    Intent intent = new Intent(MainInterfaceActivity.this,CoachActivity.class);
+                    startActivity(intent);
+                }
 
 
 
