@@ -44,78 +44,7 @@ public class MainInterfaceActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_interface);
-
-
         initView();
-//        manager = getSupportFragmentManager();
-//
-//        rb_sport = (RadioButton) findViewById(R.id.rb_sport);
-//        rb_info = (RadioButton) findViewById(R.id.rb_info);
-//
-//
-//        //点击radioButton触发的事件
-//        rb_sport.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                transaction = manager.beginTransaction();
-//                transaction.replace(R.id.content_layout,new sportFragment());
-//                transaction.commit();
-//            }
-//        });
-//
-//        rb_info.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                transaction = manager.beginTransaction();
-//                transaction.replace(R.id.content_layout,new infoFragment());
-//                transaction.commit();
-//            }
-//        });
-//
-//        transaction = manager.beginTransaction();
-//        transaction.add(R.id.content_layout,new sportFragment());
-//        transaction.commit();
-//
-//        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
-////        ActionBar actionBar=getSupportActionBar();
-////        if(actionBar!=null){
-////            actionBar.setDisplayHomeAsUpEnabled(true);
-////            actionBar.setHomeAsUpIndicator(R.drawable.ic_drawer);
-////        }
-//
-//        mDrawerList = (ListView)findViewById(R.id.listview);
-//        menuLists = new ArrayList<String>();
-//        menuLists.add("Home");
-//        menuLists.add("Announcement");
-//        menuLists.add("Schedule");
-//        menuLists.add("Coaches");
-//        adapter=new ArrayAdapter<String>(
-//                this,android.R.layout.simple_list_item_1,menuLists
-//        );
-//
-//        mDrawerList.setAdapter(adapter);
-//        Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar1);
-//        setSupportActionBar(toolbar);
-//        ActionBar actionBar = getSupportActionBar();
-//        if(actionBar != null){
-//            actionBar.setDisplayHomeAsUpEnabled(true);
-//            Bitmap originalBitmap = BitmapFactory.decodeResource(getResources(),R.drawable.ic_drawer);
-//            int originalWidth = originalBitmap.getWidth();
-//            int originalHeight = originalBitmap.getHeight();
-//            int newWidth = 100;
-//            int newHeight = 150; // 自定义 高度 暂时没用
-//            float scale = ((float) newHeight) /originalHeight;
-//            Matrix matrix = new Matrix();
-//            matrix.postScale(scale, scale);
-//            Bitmap changedBitmap = Bitmap.createBitmap(originalBitmap, 0, 0,originalWidth, originalHeight, matrix, true);
-//            BitmapDrawable b=new BitmapDrawable(null, changedBitmap);
-//            actionBar.setHomeAsUpIndicator(b);
-//        }
-
-
-
-
-
     }
 
 
@@ -156,23 +85,6 @@ public class MainInterfaceActivity extends AppCompatActivity {
 
 
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
-//        ActionBar actionBar=getSupportActionBar();
-//        if(actionBar!=null){
-//            actionBar.setDisplayHomeAsUpEnabled(true);
-//            actionBar.setHomeAsUpIndicator(R.drawable.ic_drawer);
-//        }
-
-//        mDrawerList = (ListView)findViewById(R.id.listview);
-//        menuLists = new ArrayList<String>();
-//        menuLists.add("Home");
-//        menuLists.add("Announcement");
-//        menuLists.add("Schedule");
-//        menuLists.add("Coaches");
-//        adapter=new ArrayAdapter<String>(
-//                this,android.R.layout.simple_list_item_1,menuLists
-//        );
-//
-//        mDrawerList.setAdapter(adapter);
 
 
         Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar1);
@@ -208,14 +120,10 @@ public class MainInterfaceActivity extends AppCompatActivity {
         adapter=new ArrayAdapter<String>(
                 this,android.R.layout.simple_list_item_1,menuLists
         );
-
         mDrawerList.setAdapter(adapter);
-
         mDrawerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
-
                 if(menuLists.get(position).equals("Home")){
                     Intent intent = new Intent(MainInterfaceActivity.this,MainInterfaceActivity.class);
                     startActivity(intent);
@@ -232,24 +140,18 @@ public class MainInterfaceActivity extends AppCompatActivity {
                     Intent intent = new Intent(MainInterfaceActivity.this,CoachActivity.class);
                     startActivity(intent);
                 }
-
-
-
             }
         });
-
-        drawerLayout.openDrawer(Gravity.LEFT);//侧滑打开  不设置则不会默认打开
     }
 
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
+            //打开侧滑栏
             case android.R.id.home:
                 mDrawerLayout.openDrawer(GravityCompat.START);
-
                 break;
-
         }
         return true;
     }
