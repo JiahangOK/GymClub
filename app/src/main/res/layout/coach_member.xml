@@ -37,7 +37,7 @@
         android:layout_above="@+id/coach_intro"
         android:layout_alignStart="@+id/coach_intro"
         android:layout_gravity="center"
-        android:background="@color/colorPrimary"
+        android:background="#fd433a"
         android:gravity="center"
         android:paddingBottom="2.5dp"
         android:text="2131"

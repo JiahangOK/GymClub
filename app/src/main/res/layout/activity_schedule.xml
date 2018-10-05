@@ -27,93 +27,11 @@
         android:background="#80ffffff"
         android:gravity="center"
         android:text="TIME TABLE"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="#fd433a"
         android:textSize="32sp" />
 
 
 
-        <!--第一行-->
-
-        <!--<LinearLayout-->
-            <!--android:id="@+id/weekLine"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_alignParentStart="true"-->
-            <!--android:layout_below="@+id/weekTextView"-->
-            <!--android:background="#00000000"-->
-            <!--android:orientation="horizontal"-->
-            <!--&gt;-->
-
-            <!--<TextView-->
-                <!--android:id="@+id/blankTextView"-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_weight="0.05"-->
-                <!--android:gravity="right" />-->
-
-            <!--<TextView-->
-                <!--android:id="@+id/monTextView"-->
-                <!--android:layout_width="51dp"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:gravity="center"-->
-                <!--android:text="Mon"-->
-                <!--android:textColor="@color/colorPrimary"-->
-                <!--android:textSize="17sp" />-->
-
-            <!--<TextView-->
-                <!--android:id="@+id/tueTextView"-->
-                <!--android:layout_width="51dp"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:gravity="center"-->
-                <!--android:text=" Tue "-->
-                <!--android:textColor="@color/colorPrimary"-->
-                <!--android:textSize="17sp" />-->
-
-            <!--<TextView-->
-                <!--android:id="@+id/wedTextView"-->
-                <!--android:layout_width="51dp"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:gravity="center"-->
-                <!--android:text=" Wed "-->
-                <!--android:textColor="@color/colorPrimary"-->
-                <!--android:textSize="17sp" />-->
-
-            <!--<TextView-->
-                <!--android:id="@+id/thursTextView"-->
-                <!--android:layout_width="51dp"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:gravity="center"-->
-                <!--android:text=" Thur "-->
-                <!--android:textColor="@color/colorPrimary"-->
-                <!--android:textSize="17sp" />-->
-
-            <!--<TextView-->
-                <!--android:id="@+id/friTextView"-->
-                <!--android:layout_width="51dp"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:gravity="center"-->
-                <!--android:text=" Fri "-->
-                <!--android:textColor="@color/colorPrimary"-->
-                <!--android:textSize="17sp" />-->
-
-            <!--<TextView-->
-                <!--android:id="@+id/satTextView"-->
-                <!--android:layout_width="51dp"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:gravity="center"-->
-                <!--android:text=" Sat "-->
-                <!--android:textColor="@color/colorPrimary"-->
-                <!--android:textSize="17sp" />-->
-
-            <!--<TextView-->
-                <!--android:id="@+id/sunTextView"-->
-                <!--android:layout_width="51dp"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:gravity="center"-->
-                <!--android:text=" Sun "-->
-                <!--android:textColor="@color/colorPrimary"-->
-                <!--android:textSize="17sp" />-->
-        <!--</LinearLayout>-->
 
         <!-- 课程表body部分 -->
         <LinearLayout
@@ -139,7 +57,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text=" "
-                    android:textColor="#00F"
+                    android:textColor="#fd433a"
                     android:textSize="25dp" />
 
                 <TextView
@@ -147,7 +65,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="1"
-                    android:textColor="#00F"
+                    android:textColor="#fd433a"
                     android:textSize="25dp" />
                 //列 行权重为1
 
@@ -156,7 +74,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="2"
-                    android:textColor="#00F"
+                    android:textColor="#fd433a"
                     android:textSize="25dp" />
 
                 <TextView
@@ -164,7 +82,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="3"
-                    android:textColor="#00F"
+                    android:textColor="#fd433a"
                     android:textSize="25dp" />
 
                 <TextView
@@ -172,7 +90,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="4"
-                    android:textColor="#00F"
+                    android:textColor="#fd433a"
                     android:textSize="25dp" />
 
                 <TextView
@@ -180,7 +98,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text=" "
-                    android:textColor="#00F"
+                    android:textColor="#fd433a"
                     android:textSize="25dp" />
 
                 <TextView
@@ -188,7 +106,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="5"
-                    android:textColor="#00F"
+                    android:textColor="#fd433a"
                     android:textSize="25dp" />
 
                 <TextView
@@ -196,7 +114,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="6"
-                    android:textColor="#00F"
+                    android:textColor="#fd433a"
                     android:textSize="25dp" />
 
                 <TextView
@@ -204,7 +122,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="7"
-                    android:textColor="#00F"
+                    android:textColor="#fd433a"
                     android:textSize="25dp" />
 
                 <TextView
@@ -212,7 +130,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#fd433a"
                     android:textSize="25dp" />
 
             </GridLayout>
@@ -230,49 +148,49 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="Mon"
-                    android:textColor="#00F"
+                    android:textColor="#fd433a"
                     android:textSize="25dp" />
                 <TextView
                     android:layout_columnWeight="1"
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="Tue"
-                    android:textColor="#00F"
+                    android:textColor="#fd433a"
                     android:textSize="25dp" />
                 <TextView
                     android:layout_columnWeight="1"
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="Wed"
-                    android:textColor="#00F"
+                    android:textColor="#fd433a"
                     android:textSize="25dp" />
                 <TextView
                     android:layout_columnWeight="1"
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="Thur"
-                    android:textColor="#00F"
+                    android:textColor="#fd433a"
                     android:textSize="25dp" />
                 <TextView
                     android:layout_columnWeight="1"
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="Fri"
-                    android:textColor="#00F"
+                    android:textColor="#fd433a"
                     android:textSize="25dp" />
                 <TextView
                     android:layout_columnWeight="1"
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="Sat"
-                    android:textColor="#00F"
+                    android:textColor="#fd433a"
                     android:textSize="25dp" />
                 <TextView
                     android:layout_columnWeight="1"
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="Sun"
-                    android:textColor="#00F"
+                    android:textColor="#fd433a"
                     android:textSize="25dp" />
 
 
@@ -281,8 +199,32 @@
                     android:layout_columnWeight="1"
                     android:layout_rowWeight="1"
                     android:gravity="center"
-                    android:text="8"
-                    android:textColor="#00F"
+                    android:text="A"
+                    android:textColor="#2f2d2d"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:gravity="center"
+                    android:text="B"
+                    android:textColor="#2f2d2d"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:gravity="center"
+                    android:text="C"
+                    android:textColor="#2f2d2d"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:gravity="center"
+                    android:text="D"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -290,7 +232,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -298,7 +240,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -306,7 +248,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -314,7 +256,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -322,7 +264,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -330,7 +272,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -338,7 +280,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -346,7 +288,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -354,7 +296,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -362,7 +304,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -370,7 +312,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -378,7 +320,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -386,7 +328,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -394,7 +336,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -402,7 +344,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -410,7 +352,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -418,7 +360,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -426,7 +368,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -434,7 +376,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -442,7 +384,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -450,7 +392,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -458,7 +400,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -466,7 +408,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -474,31 +416,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
-                    android:textSize="25dp" />
-
-                <TextView
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:gravity="center"
-                    android:text="8"
-                    android:textColor="#00F"
-                    android:textSize="25dp" />
-
-                <TextView
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:gravity="center"
-                    android:text="8"
-                    android:textColor="#00F"
-                    android:textSize="25dp" />
-
-                <TextView
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:gravity="center"
-                    android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -507,7 +425,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text=" "
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp"
                     />
 
@@ -516,7 +434,7 @@
                 <!--android:layout_rowWeight="1"-->
                 <!--android:gravity="center"-->
                 <!--android:text="8"-->
-                <!--android:textColor="#00F"-->
+                <!--android:textColor="#2f2d2d"-->
                 <!--android:textSize="25dp" />-->
 
                 <!--<TextView-->
@@ -524,7 +442,7 @@
                 <!--android:layout_rowWeight="1"-->
                 <!--android:gravity="center"-->
                 <!--android:text="8"-->
-                <!--android:textColor="#00F"-->
+                <!--android:textColor="#2f2d2d"-->
                 <!--android:textSize="25dp" />-->
 
                 <!--<TextView-->
@@ -532,7 +450,7 @@
                 <!--android:layout_rowWeight="1"-->
                 <!--android:gravity="center"-->
                 <!--android:text="8"-->
-                <!--android:textColor="#00F"-->
+                <!--android:textColor="#2f2d2d"-->
                 <!--android:textSize="25dp" />-->
 
                 <!--<TextView-->
@@ -540,7 +458,7 @@
                 <!--android:layout_rowWeight="1"-->
                 <!--android:gravity="center"-->
                 <!--android:text="8"-->
-                <!--android:textColor="#00F"-->
+                <!--android:textColor="#2f2d2d"-->
                 <!--android:textSize="25dp" />-->
 
                 <!--<TextView-->
@@ -548,7 +466,7 @@
                 <!--android:layout_rowWeight="1"-->
                 <!--android:gravity="center"-->
                 <!--android:text="8"-->
-                <!--android:textColor="#00F"-->
+                <!--android:textColor="#2f2d2d"-->
                 <!--android:textSize="25dp" />-->
 
                 <!--<TextView-->
@@ -556,7 +474,7 @@
                 <!--android:layout_rowWeight="1"-->
                 <!--android:gravity="center"-->
                 <!--android:text="8"-->
-                <!--android:textColor="#00F"-->
+                <!--android:textColor="#2f2d2d"-->
                 <!--android:textSize="25dp" />-->
 
                 <TextView
@@ -564,7 +482,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -572,7 +490,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -580,7 +498,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -588,7 +506,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -596,7 +514,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -604,7 +522,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -612,7 +530,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -620,7 +538,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -628,7 +546,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -636,7 +554,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -644,7 +562,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -652,7 +570,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -660,7 +578,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -668,7 +586,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -676,7 +594,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -684,7 +602,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -692,7 +610,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -700,7 +618,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -708,7 +626,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -716,7 +634,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -724,7 +642,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -732,7 +650,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -740,7 +658,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -748,7 +666,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -756,7 +674,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -764,7 +682,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -772,7 +690,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
                 <TextView
@@ -780,7 +698,7 @@
                     android:layout_rowWeight="1"
                     android:gravity="center"
                     android:text="8"
-                    android:textColor="#00F"
+                    android:textColor="#2f2d2d"
                     android:textSize="25dp" />
 
 
