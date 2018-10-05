@@ -127,8 +127,7 @@ public class MainInterfaceActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if(menuLists.get(position).equals("Home")){
-                    Intent intent = new Intent(MainInterfaceActivity.this,MainInterfaceActivity.class);
-                    startActivity(intent);
+                    mDrawerLayout.closeDrawer(GravityCompat.START);
                 }
                     if(menuLists.get(position).equals("Announcement")){
                     Intent intent = new Intent(MainInterfaceActivity.this,AnnounceActivity.class);
