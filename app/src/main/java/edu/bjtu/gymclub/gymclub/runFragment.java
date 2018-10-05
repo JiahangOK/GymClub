@@ -32,7 +32,7 @@ public class runFragment extends Fragment {
         progressBar= (ProgressBar)view.findViewById(R.id.progressbar);//进度条
         webView = (WebView)view.findViewById(R.id.webview);
 
-        webView.loadUrl("https://www.gotokeep.com/");//加载url
+        webView.loadUrl("https://www.baidu.com");//加载url
         webView.addJavascriptInterface(this,"android");//添加js监听 这样html就能调用客户端
         webView.setWebChromeClient(webChromeClient);
         webView.setWebViewClient(webViewClient);
