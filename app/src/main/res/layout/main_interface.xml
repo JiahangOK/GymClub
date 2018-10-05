@@ -38,7 +38,8 @@
             <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                >
                 <RadioButton
                     android:id="@+id/rb_sport"
                     android:layout_width="0px"
@@ -49,6 +50,7 @@
                     android:drawableTop="@drawable/sport"
                     android:background="@drawable/radio_group_selector"
 
+                    android:paddingTop="15px"
 
                     android:button="@null"/>
                 <RadioButton
@@ -57,6 +59,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Info"
+                    android:paddingTop="15px"
+
                     android:gravity="center"
                     android:background="@drawable/radio_group_selector"
                     android:drawableTop="@drawable/info"
@@ -74,32 +78,41 @@
         android:layout_gravity="start"
         >
 
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="200px"
-            android:layout_height="200px"
-            android:src="@drawable/headpic"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            app:civ_border_color="#111"
-            app:civ_border_width="2dp"
-            />
-        <!--android:menu="@menu/nav_menu"-->
-
-
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Tommy"
-            android:textSize="50px"
-            android:textAlignment="center"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Good luck with that!"
-            android:textSize="30px"
-            android:textAlignment="textStart"
-            android:paddingLeft="10dp"
-            android:textColor="#111111"/>
+            android:orientation="vertical"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:src="@drawable/headpic"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:civ_border_color="#111"
+                app:civ_border_width="2dp"
+                />
+            <!--android:menu="@menu/nav_menu"-->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tommy"
+                android:textSize="50px"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Good luck with that!"
+                android:textSize="30px"
+                android:gravity="center"
+
+                android:paddingLeft="10dp"
+                android:textColor="#111111"/>
+
+        </LinearLayout>
+
         <ListView
             android:id="@+id/listview"
             android:layout_width="match_parent"
