@@ -17,8 +17,8 @@ import edu.bjtu.gymclub.gymclub.R;
 public class CoachAdapter extends ArrayAdapter<Coach> {
 
     private int resourceId;
-    public CoachAdapter(Context context, int textViewResourceId, List<Coach> objects){
-        super(context,textViewResourceId,objects);
+    public CoachAdapter(Context context1, int textViewResourceId, List<Coach> objects){
+        super(context1,textViewResourceId,objects);
         resourceId=textViewResourceId;
     }
     @Override
@@ -27,8 +27,10 @@ public class CoachAdapter extends ArrayAdapter<Coach> {
         View view= LayoutInflater.from(getContext()).inflate(resourceId,parent,false);
         ImageView coachImage=(ImageView)view.findViewById(R.id.coach_image);
         TextView coachName=(TextView) view.findViewById(R.id.coach_name);
+        TextView coachIntro=(TextView) view.findViewById(R.id.coach_intro);
         coachImage.setImageResource(coach.getImageId());
         coachName.setText(coach.getName());
+        coachIntro.setText(coach.getIntro());
         return view;
     }
 }

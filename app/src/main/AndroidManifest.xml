@@ -25,10 +25,12 @@
         <activity
             android:name=".RegisterActivity"
             android:label="Register" />
-        <activity android:name=".ScheduleActivity" />
+        <activity
+            android:name=".ScheduleActivity"
+            android:label="Schedule" />
         <activity
             android:name=".CoachActivity"
-            android:label="@string/title_activity_coach"></activity>
+            android:label="Coachlist"/>
     </application>
 
 </manifest>

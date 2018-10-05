@@ -6,9 +6,11 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -47,28 +49,33 @@ private List<Coach> coachList=new ArrayList<>();
         ListView listView=(ListView)findViewById(R.id.coachlist);
         listView.setAdapter(adapter);
 
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Coach coach=coachList.get(position);
+                Toast.makeText(CoachActivity.this,coach.getName(),
+                        Toast.LENGTH_SHORT).show();
+            }
+        });
+
          }
 
 
 
     private void initCoaches(){
-        Coach c1 = new Coach("c1",R.drawable.c1);
-        coachList.add(c1);
-        Coach c2=new Coach("c2",R.drawable.c2);
+        Coach c2=new Coach(" Jack ","He is a boxing coach",R.drawable.c2);
         coachList.add(c2);
-        Coach c3=new Coach("c3",R.drawable.c3);
+        Coach c3=new Coach(" Carolyn ","She is a yoga coach",R.drawable.c3);
         coachList.add(c3);
-        Coach c4=new Coach("c4",R.drawable.c4);
+        Coach c4=new Coach(" Daisy ","She is a boxing coach",R.drawable.c4);
         coachList.add(c4);
-        Coach c5=new Coach( "c5", R.drawable.c5);
+        Coach c5=new Coach( " Damon ","He is a shaping coach",R.drawable.c5);
         coachList.add(c5);
-        Coach c6=new Coach("c6",R.drawable.c6);
-        coachList.add(c6);
-        Coach c7=new Coach("c7",R.drawable.c7);
+
+        Coach c7=new Coach(" Olivia ","She is a tennis coach",R.drawable.c7);
         coachList.add(c7);
-        Coach c8=new Coach("c8",R.drawable.c8);
-        coachList.add(c8);
-        Coach c9=new Coach("c9",R.drawable.c9);
+
+        Coach c9=new Coach(" Tony ","He is a swimming coach",R.drawable.c9);
         coachList.add(c9);
 
 
