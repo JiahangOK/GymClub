@@ -92,7 +92,7 @@ private List<Coach> coachList=new ArrayList<>();
         Coach c9=new Coach(" Tony ","He is a swimming coach",R.drawable.c9);
         coachList.add(c9);
 
-        Coach c10=new Coach(" Tony ","He is a swimming coach",R.drawable.c9);
+        Coach c10=new Coach(" Jay ","He is a boxing coach",R.drawable.c2);
         coachList.add(c10);
 
 

@@ -214,27 +214,27 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
-                android:text="A"
+                android:text="T"
                 android:textColor="#2f2d2d"
                 android:textSize="25dp" />
 
             <Button
                 android:id="@+id/b2"
-                android:layout_width="1dp"
+                android:layout_width="26dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
-                android:text="B"
+                android:text="Y"
                 android:textColor="#2f2d2d"
                 android:textSize="25dp" />
 
             <Button
                 android:id="@+id/b3"
-                android:layout_width="1dp"
+                android:layout_width="26dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
-                android:text="C"
+                android:text="B"
                 android:textColor="#2f2d2d"
                 android:textSize="25dp" />
 
@@ -244,7 +244,7 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
-                android:text="D"
+                android:text="S"
                 android:textColor="#2f2d2d"
                 android:textSize="25dp" />
 
@@ -254,7 +254,7 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
-                android:text="E"
+                android:text="C"
                 android:textColor="#2f2d2d"
                 android:textSize="25dp" />
 
@@ -264,7 +264,7 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
-                android:text="F"
+                android:text="P"
                 android:textColor="#2f2d2d"
                 android:textSize="25dp" />
 
@@ -274,23 +274,34 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
-                android:text="G"
+                android:text="F"
                 android:textColor="#2f2d2d"
                 android:textSize="25dp" />
 
             <Button
-                android:layout_width="1dp"
-                android:layout_height="wrap_content"
+
+                android:layout_width="26dp"
+                android:layout_height="44dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
-                android:text="A"
+                android:text="T"
                 android:textColor="#2f2d2d"
                 android:textSize="25dp" />
 
             <Button
-                android:layout_width="1dp"
-                android:layout_height="wrap_content"
+
+                android:layout_width="26dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:gravity="center"
+                android:text="Y"
+                android:textColor="#2f2d2d"
+                android:textSize="25dp" />
+
+            <Button
+
+                android:layout_width="26dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
@@ -299,8 +310,18 @@
                 android:textSize="25dp" />
 
             <Button
+
                 android:layout_width="1dp"
-                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:gravity="center"
+                android:text="S"
+                android:textColor="#2f2d2d"
+                android:textSize="25dp" />
+
+            <Button
+
+                android:layout_width="1dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
@@ -309,28 +330,18 @@
                 android:textSize="25dp" />
 
             <Button
+
                 android:layout_width="1dp"
-                android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
-                android:text="D"
+                android:text="P"
                 android:textColor="#2f2d2d"
                 android:textSize="25dp" />
 
             <Button
-                android:layout_width="1dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:gravity="center"
-                android:text="E"
-                android:textColor="#2f2d2d"
-                android:textSize="25dp" />
 
-            <Button
                 android:layout_width="1dp"
-                android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
@@ -339,28 +350,29 @@
                 android:textSize="25dp" />
 
             <Button
-                android:layout_width="1dp"
-                android:layout_height="wrap_content"
+
+                android:layout_width="26dp"
+                android:layout_height="44dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
-                android:text="G"
+                android:text="T"
                 android:textColor="#2f2d2d"
                 android:textSize="25dp" />
 
             <Button
-                android:layout_width="1dp"
-                android:layout_height="wrap_content"
+
+                android:layout_width="26dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
-                android:text="A"
+                android:text="Y"
                 android:textColor="#2f2d2d"
                 android:textSize="25dp" />
 
             <Button
-                android:layout_width="1dp"
-                android:layout_height="wrap_content"
+
+                android:layout_width="26dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
@@ -369,8 +381,18 @@
                 android:textSize="25dp" />
 
             <Button
+
                 android:layout_width="1dp"
-                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:gravity="center"
+                android:text="S"
+                android:textColor="#2f2d2d"
+                android:textSize="25dp" />
+
+            <Button
+
+                android:layout_width="1dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
@@ -379,28 +401,18 @@
                 android:textSize="25dp" />
 
             <Button
+
                 android:layout_width="1dp"
-                android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
-                android:text="D"
+                android:text="P"
                 android:textColor="#2f2d2d"
                 android:textSize="25dp" />
 
             <Button
-                android:layout_width="1dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:gravity="center"
-                android:text="E"
-                android:textColor="#2f2d2d"
-                android:textSize="25dp" />
 
-            <Button
                 android:layout_width="1dp"
-                android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
@@ -409,28 +421,29 @@
                 android:textSize="25dp" />
 
             <Button
-                android:layout_width="1dp"
-                android:layout_height="wrap_content"
+
+                android:layout_width="26dp"
+                android:layout_height="44dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
-                android:text="G"
+                android:text="T"
                 android:textColor="#2f2d2d"
                 android:textSize="25dp" />
 
             <Button
-                android:layout_width="1dp"
-                android:layout_height="wrap_content"
+
+                android:layout_width="26dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
-                android:text="A"
+                android:text="Y"
                 android:textColor="#2f2d2d"
                 android:textSize="25dp" />
 
             <Button
-                android:layout_width="1dp"
-                android:layout_height="wrap_content"
+
+                android:layout_width="26dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
@@ -439,8 +452,18 @@
                 android:textSize="25dp" />
 
             <Button
+
                 android:layout_width="1dp"
-                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:gravity="center"
+                android:text="S"
+                android:textColor="#2f2d2d"
+                android:textSize="25dp" />
+
+            <Button
+
+                android:layout_width="1dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
@@ -449,42 +472,22 @@
                 android:textSize="25dp" />
 
             <Button
+
                 android:layout_width="1dp"
-                android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
-                android:text="D"
+                android:text="P"
                 android:textColor="#2f2d2d"
                 android:textSize="25dp" />
 
             <Button
-                android:layout_width="1dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:gravity="center"
-                android:text="E"
-                android:textColor="#2f2d2d"
-                android:textSize="25dp" />
 
-            <Button
                 android:layout_width="1dp"
-                android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
                 android:text="F"
-                android:textColor="#2f2d2d"
-                android:textSize="25dp" />
-
-            <Button
-                android:layout_width="1dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:gravity="center"
-                android:text="G"
                 android:textColor="#2f2d2d"
                 android:textSize="25dp" />
 
@@ -501,67 +504,32 @@
                 android:layout_marginRight="5dp"
                 android:layout_marginLeft="8dp"/>
 
-            <!--<TextView-->
-            <!--android:layout_columnWeight="1"-->
-            <!--android:layout_rowWeight="1"-->
-            <!--android:gravity="center"-->
-            <!--android:text="8"-->
-            <!--android:textColor="#2f2d2d"-->
-            <!--android:textSize="25dp" />-->
 
-            <!--<TextView-->
-            <!--android:layout_columnWeight="1"-->
-            <!--android:layout_rowWeight="1"-->
-            <!--android:gravity="center"-->
-            <!--android:text="8"-->
-            <!--android:textColor="#2f2d2d"-->
-            <!--android:textSize="25dp" />-->
-
-            <!--<TextView-->
-            <!--android:layout_columnWeight="1"-->
-            <!--android:layout_rowWeight="1"-->
-            <!--android:gravity="center"-->
-            <!--android:text="8"-->
-            <!--android:textColor="#2f2d2d"-->
-            <!--android:textSize="25dp" />-->
-
-            <!--<TextView-->
-            <!--android:layout_columnWeight="1"-->
-            <!--android:layout_rowWeight="1"-->
-            <!--android:gravity="center"-->
-            <!--android:text="8"-->
-            <!--android:textColor="#2f2d2d"-->
-            <!--android:textSize="25dp" />-->
-
-            <!--<TextView-->
-            <!--android:layout_columnWeight="1"-->
-            <!--android:layout_rowWeight="1"-->
-            <!--android:gravity="center"-->
-            <!--android:text="8"-->
-            <!--android:textColor="#2f2d2d"-->
-            <!--android:textSize="25dp" />-->
-
-            <!--<TextView-->
-            <!--android:layout_columnWeight="1"-->
-            <!--android:layout_rowWeight="1"-->
-            <!--android:gravity="center"-->
-            <!--android:text="8"-->
-            <!--android:textColor="#2f2d2d"-->
-            <!--android:textSize="25dp" />-->
 
             <Button
-                android:layout_width="1dp"
-                android:layout_height="wrap_content"
+
+                android:layout_width="26dp"
+                android:layout_height="44dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
-                android:text="A"
+                android:text="T"
                 android:textColor="#2f2d2d"
                 android:textSize="25dp" />
 
             <Button
-                android:layout_width="1dp"
-                android:layout_height="wrap_content"
+
+                android:layout_width="26dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:gravity="center"
+                android:text="Y"
+                android:textColor="#2f2d2d"
+                android:textSize="25dp" />
+
+            <Button
+
+                android:layout_width="26dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
@@ -570,8 +538,18 @@
                 android:textSize="25dp" />
 
             <Button
+
                 android:layout_width="1dp"
-                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:gravity="center"
+                android:text="S"
+                android:textColor="#2f2d2d"
+                android:textSize="25dp" />
+
+            <Button
+
+                android:layout_width="1dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
@@ -580,29 +558,18 @@
                 android:textSize="25dp" />
 
             <Button
+
                 android:layout_width="1dp"
-                android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
-                android:text="D"
+                android:text="P"
                 android:textColor="#2f2d2d"
                 android:textSize="25dp" />
 
             <Button
 
                 android:layout_width="1dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:gravity="center"
-                android:text="E"
-                android:textColor="#2f2d2d"
-                android:textSize="25dp" />
-
-            <Button
-                android:layout_width="1dp"
-                android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
@@ -611,28 +578,29 @@
                 android:textSize="25dp" />
 
             <Button
-                android:layout_width="1dp"
-                android:layout_height="wrap_content"
+
+                android:layout_width="26dp"
+                android:layout_height="44dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
-                android:text="G"
+                android:text="T"
                 android:textColor="#2f2d2d"
                 android:textSize="25dp" />
 
             <Button
-                android:layout_width="1dp"
-                android:layout_height="wrap_content"
+
+                android:layout_width="26dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
-                android:text="A"
+                android:text="Y"
                 android:textColor="#2f2d2d"
                 android:textSize="25dp" />
 
             <Button
-                android:layout_width="1dp"
-                android:layout_height="wrap_content"
+
+                android:layout_width="26dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
@@ -641,8 +609,18 @@
                 android:textSize="25dp" />
 
             <Button
+
                 android:layout_width="1dp"
-                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:gravity="center"
+                android:text="S"
+                android:textColor="#2f2d2d"
+                android:textSize="25dp" />
+
+            <Button
+
+                android:layout_width="1dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
@@ -651,28 +629,18 @@
                 android:textSize="25dp" />
 
             <Button
+
                 android:layout_width="1dp"
-                android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
-                android:text="D"
+                android:text="P"
                 android:textColor="#2f2d2d"
                 android:textSize="25dp" />
 
             <Button
-                android:layout_width="1dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:gravity="center"
-                android:text="E"
-                android:textColor="#2f2d2d"
-                android:textSize="25dp" />
 
-            <Button
                 android:layout_width="1dp"
-                android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
@@ -681,28 +649,29 @@
                 android:textSize="25dp" />
 
             <Button
-                android:layout_width="1dp"
-                android:layout_height="wrap_content"
+
+                android:layout_width="26dp"
+                android:layout_height="44dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
-                android:text="G"
+                android:text="T"
                 android:textColor="#2f2d2d"
                 android:textSize="25dp" />
 
             <Button
-                android:layout_width="1dp"
-                android:layout_height="wrap_content"
+
+                android:layout_width="26dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
-                android:text="A"
+                android:text="Y"
                 android:textColor="#2f2d2d"
                 android:textSize="25dp" />
 
             <Button
-                android:layout_width="1dp"
-                android:layout_height="wrap_content"
+
+                android:layout_width="26dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
@@ -711,8 +680,18 @@
                 android:textSize="25dp" />
 
             <Button
+
                 android:layout_width="1dp"
-                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:gravity="center"
+                android:text="S"
+                android:textColor="#2f2d2d"
+                android:textSize="25dp" />
+
+            <Button
+
+                android:layout_width="1dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
@@ -721,48 +700,27 @@
                 android:textSize="25dp" />
 
             <Button
+
                 android:layout_width="1dp"
-                android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
-                android:text="D"
+                android:text="P"
                 android:textColor="#2f2d2d"
                 android:textSize="25dp" />
 
             <Button
-                android:layout_width="1dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:gravity="center"
-                android:text="E"
-                android:textColor="#2f2d2d"
-                android:textSize="25dp" />
 
-            <Button
                 android:layout_width="1dp"
-                android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:gravity="center"
                 android:text="F"
-                android:textColor="#2f2d2d"
-                android:textSize="25dp" />
-
-            <Button
-                android:layout_width="1dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:gravity="center"
-                android:text="G"
                 android:textColor="#2f2d2d"
                 android:textSize="25dp" />
 
 
         </GridLayout>
-        >
 
     </LinearLayout>
 

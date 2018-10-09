@@ -106,7 +106,7 @@ public class ScheduleActivity extends AppCompatActivity {
         button6.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                SpannableString ss = new SpannableString("Calisthenics class");
+                SpannableString ss = new SpannableString("PingPong class");
 
                 ss.setSpan(new ForegroundColorSpan(Color.RED), 0, 12,
                         Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
