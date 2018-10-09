@@ -76,6 +76,7 @@
         android:orientation="vertical"
         android:background="#fff"
         android:layout_gravity="start"
+
         >
 
         <LinearLayout
@@ -113,16 +114,22 @@
 
         </LinearLayout>
 
-        <ListView
-            android:id="@+id/listview"
+        <!--<ListView-->
+            <!--android:id="@+id/listview"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="#fff"-->
+            <!--android:choiceMode="singleChoice"-->
+            <!--android:dividerHeight="0dp"/>-->
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nav_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#fff"
-            android:choiceMode="singleChoice"
+            android:layout_gravity="start"
+            app:menu="@menu/menu_navi" />
 
-            android:dividerHeight="0dp">
 
-        </ListView>
+
 
     </LinearLayout>
 

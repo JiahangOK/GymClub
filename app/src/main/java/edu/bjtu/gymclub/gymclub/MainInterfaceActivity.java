@@ -8,6 +8,8 @@ import android.graphics.drawable.BitmapDrawable;
 
 import android.os.Bundle;
 
+import android.support.annotation.NonNull;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
@@ -25,9 +27,12 @@ import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.RadioButton;
+import android.widget.Toast;
 
 
 import java.util.ArrayList;
+
+import static android.support.v4.view.GravityCompat.START;
 
 public class MainInterfaceActivity extends AppCompatActivity {
     private DrawerLayout mDrawerLayout;
@@ -113,36 +118,73 @@ public class MainInterfaceActivity extends AppCompatActivity {
 
 
     private void initSideView(DrawerLayout drawerLayout){
-        mDrawerList = (ListView)findViewById(R.id.listview);//listview
-        menuLists = new ArrayList<String>();//list
-        menuLists.add("Home");
-        menuLists.add("Announcement");
-        menuLists.add("Schedule");
-        menuLists.add("Coaches");
-        adapter=new ArrayAdapter<String>(
-                this,android.R.layout.simple_list_item_1,menuLists
-        );
-        mDrawerList.setAdapter(adapter);
-        mDrawerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//        mDrawerList = (ListView)findViewById(R.id.listview);//listview
+//        menuLists = new ArrayList<String>();//list
+//        menuLists.add("Home");
+//        menuLists.add("Announcement");
+//        menuLists.add("Schedule");
+//        menuLists.add("Coaches");
+//        adapter=new ArrayAdapter<String>(
+//                this,android.R.layout.simple_list_item_1,menuLists
+//        );
+//        mDrawerList.setAdapter(adapter);
+        NavigationView navigationView = findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(
+                new NavigationView.OnNavigationItemSelectedListener(){
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if(menuLists.get(position).equals("Home")){
-                    mDrawerLayout.closeDrawer(GravityCompat.START);
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                Intent intent;
+                switch (item.getItemId()) {
+                    case R.id.nav_home:
+                        mDrawerLayout.closeDrawer(GravityCompat.START);
+                        break;
+                    case R.id.nav_announcement:
+                        intent = new Intent(MainInterfaceActivity.this,AnnounceActivity.class);
+                        startActivity(intent);
+                        break;
+                    case R.id.nav_schedule:
+                        intent = new Intent(MainInterfaceActivity.this,ScheduleActivity.class);
+                        startActivity(intent);
+                        break;
+                    case R.id.nav_coaches:
+                        intent = new Intent(MainInterfaceActivity.this,CoachActivity.class);
+                        startActivity(intent);
+                        break;
+
+                    case R.id.nav_share:
+                        break;
+                    case R.id.nav_send:
+                        break;
                 }
-                    if(menuLists.get(position).equals("Announcement")){
-                    Intent intent = new Intent(MainInterfaceActivity.this,AnnounceActivity.class);
-                    startActivity(intent);
-                }
-                if(menuLists.get(position).equals("Schedule")){
-                    Intent intent = new Intent(MainInterfaceActivity.this,ScheduleActivity.class);
-                    startActivity(intent);
-                }
-                if(menuLists.get(position).equals("Coaches")){
-                    Intent intent = new Intent(MainInterfaceActivity.this,CoachActivity.class);
-                    startActivity(intent);
-                }
+
+                mDrawerLayout.closeDrawer(GravityCompat.START);
+                return true;
             }
-        });
+
+        }
+
+
+        );
+//        mDrawerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            @Override
+//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+//                if(menuLists.get(position).equals("Home")){
+//                    mDrawerLayout.closeDrawer(GravityCompat.START);
+//                }
+//                    if(menuLists.get(position).equals("Announcement")){
+//                    Intent intent = new Intent(MainInterfaceActivity.this,AnnounceActivity.class);
+//                    startActivity(intent);
+//                }
+//                if(menuLists.get(position).equals("Schedule")){
+//                    Intent intent = new Intent(MainInterfaceActivity.this,ScheduleActivity.class);
+//                    startActivity(intent);
+//                }
+//                if(menuLists.get(position).equals("Coaches")){
+//                    Intent intent = new Intent(MainInterfaceActivity.this,CoachActivity.class);
+//                    startActivity(intent);
+//                }
+//            }
+//        });
     }
 
 
