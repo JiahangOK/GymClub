@@ -1,9 +1,14 @@
 package edu.bjtu.gymclub.gymclub;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
+import android.text.SpannableString;
+import android.text.Spanned;
+import android.text.style.ForegroundColorSpan;
+import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
@@ -53,8 +58,17 @@ private List<Coach> coachList=new ArrayList<>();
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Coach coach=coachList.get(position);
-                Toast.makeText(CoachActivity.this,coach.getName(),
-                        Toast.LENGTH_SHORT).show();
+
+                SpannableString ss = new SpannableString(coach.getName());
+                ss.setSpan(new ForegroundColorSpan(Color.RED), 0, 1,
+                        Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+
+                Toast toast = Toast.makeText(getApplicationContext(),ss, Toast.LENGTH_LONG);
+                toast.setGravity(Gravity.CENTER, 0, 0);
+                toast.show();
+
+
+
             }
         });
 
