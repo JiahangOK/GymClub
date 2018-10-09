@@ -23,24 +23,24 @@ Index页面：
 1. 连接网页 WebView
 2. 进度条 ProgressBar
 
-run运动项目界面：
-1. 滚动页面： ScrollView
+run运动项目界面：    
+1. 滚动页面： ScrollView   
 2. 轮播图：FrameLayout、ScheduledExecutorService、ViewPagerAdapter
 	轮播任务：Runnable
 3. 卡片式显示：CardView
 
-Schedule界面：
-课程表：RelativeLayout;Gridlayout;Linearlayout;
+Schedule界面：  
+课程表：RelativeLayout;Gridlayout;Linearlayout;     
 ToolBar;Button;TextView
 SpannableString;Toast
 
-AnnounceActivity.java	
-通知信息：
+AnnounceActivity.java	   
+通知信息：     
 RelativeLayout;
 ToolBar;ImageView;TextView
 
-CoachActivity.java	
-教练目录：
+CoachActivity.java	  
+教练目录：  
 RelativeLayout;
 ToolBar;ListView;CircleImageView;
 List;CoachAdapter(重写ArrayAdapyer);Coach;
