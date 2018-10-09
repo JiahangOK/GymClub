@@ -157,7 +157,7 @@ public class MainInterfaceActivity extends AppCompatActivity {
                         break;
                 }
 
-                mDrawerLayout.closeDrawer(GravityCompat.START);
+
                 return true;
             }
 
