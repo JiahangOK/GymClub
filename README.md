@@ -1,10 +1,10 @@
 # GymClub
 ## Assignment 1 for Android Development    
-Team Members:        
+### Team Members:        
 16231114 喻琳珠    
 16301134 吴家行   
 
-Technical Features Applied：
+### Technical Features Applied：
 
 登录界面，注册界面：	         
 1. LinearLayout	      		
