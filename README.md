@@ -5,7 +5,7 @@
 16301134 吴家行   
 
 ### Running Result：
-见录屏文件：screen_record
+见录屏文件：screen_record.webm
 
 ### Technical Features Applied：
 
